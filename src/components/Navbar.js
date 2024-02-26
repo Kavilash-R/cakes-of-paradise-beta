@@ -1,9 +1,11 @@
 import React from 'react'
-import image from '../photos/company-name1.png'
-import image1 from '../photos/bakeback1.png'
+import './Contact'
+import Contact from './Contact'
+
 
 
 const Navbar = () => {
+ 
   return (
     <>
     <div className='nav-bar'>
@@ -12,8 +14,8 @@ const Navbar = () => {
        
     
         <div className='nav-element'>
-            <a href="#"> ABOUT US</a>
-            <a href="#"> CONTACT</a>
+            <a  className='myA' href=""> ABOUT US</a>
+            <a className='myA' href='#Contact-info'> CONTACT</a>
         </div>
     </div>
 

@@ -22,7 +22,7 @@
     border-radius: 2px;
     width: 100%;
     top: 10px;
-    position: fixed;
+    
 
 }
 .nav-element{
@@ -35,7 +35,7 @@
     right: 1px;
     margin-top: 25px;   
 }
-a{
+.myA{
     display: inline-block;
     
     color: white;
@@ -48,9 +48,10 @@ a{
     padding: 5px;
     border-radius: 7px;
     transition: 0.5s;
+    animation-duration: 1s;
     
 }
-a:hover{
+.myA:hover{
     
     transform: scale(1.1);
     
@@ -59,17 +60,19 @@ a:hover{
     display: flex;
     display: inline-block;
     position: absolute;
-   
-    color: rgb(255, 251, 251);
+    position: fixed;
+    color: rgb(15, 15, 15);
     font-family: 'Times New Roman', Times, serif;
     margin-top: 25px;
     margin-left: 30px;
     transition: 0.5s;
+    text-decoration: none;
+    
     
 }
 #cake:hover{
     transform: scale(1.11);
-    z-index: 1.5;
+    z-index: 1.3;
 }
 
 
