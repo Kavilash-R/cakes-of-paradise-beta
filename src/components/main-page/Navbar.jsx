@@ -1,6 +1,7 @@
 import React from 'react'
 import './Contact'
 import Contact from './Contact'
+import { Link } from 'react-router-dom'
 
 
 
@@ -14,7 +15,7 @@ const Navbar = () => {
        
     
         <div className='nav-element'>
-            <a   className='myA' href=""> ABOUT US</a>
+            <Link to="/about"  className='myA' > ABOUT US </Link>
             <a className='myA' href='#Contact-info'> CONTACT</a>
         </div>
     </div>

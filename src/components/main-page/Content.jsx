@@ -13,8 +13,8 @@ const Content = () => {
         <div id="Main-Area1" className="OverAllArea">
        
         <Link to ="/cakes"><div  className="CakeArea"></div></Link>
-          <div className="PuffArea"><Link to="/puffs "></Link></div>
-          <div className="OtherArea"><Link to="/others"></Link></div>
+        <Link to="/puffs"><div className="PuffArea"></div></Link>
+        <Link to="/others"><div className="OtherArea"></div></Link>
         
         </div>
         <div className="Popular-Image">
