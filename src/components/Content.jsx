@@ -1,5 +1,6 @@
 import "./Content.css";
-import Cakes from "./Cakes";
+import { Link } from "react-router-dom";
+
 
 const Content = () => {
   return (
@@ -11,9 +12,9 @@ const Content = () => {
 
         <div id="Main-Area1" className="OverAllArea">
        
-          <div onClick={()=>Cakes()} className="CakeArea"></div>
-          <div className="PuffArea"></div>
-          <div className="OtherArea"></div>
+        <Link to ="/cakes"><div  className="CakeArea"></div></Link>
+          <div className="PuffArea"><Link to="/puffs "></Link></div>
+          <div className="OtherArea"><Link to="/others"></Link></div>
         
         </div>
         <div className="Popular-Image">
