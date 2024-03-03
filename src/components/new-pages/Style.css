@@ -5,4 +5,75 @@
 }
 .whole-img-container{
      display: flex;
+     flex-wrap: wrap;
+     
+    
+}
+.seperate-img-container{
+    margin-top: 160px;
+    height: 100px;
+    width: 100px;
+   
+}
+img{
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
+    border-radius: 20px;
+   
+    
+}
+.whiteforest{
+    margin-left: 260px;
+}
+.choco1{
+    position: absolute;
+    top: 160px;
+    left: 620px;
+    
+}
+.red-velvet{
+    position: absolute;
+    top: 160px;
+    left: 930px;
+}
+.titlename{
+    position: absolute;
+   margin-left: 100px;
+   margin-top: 30px;
+}
+.titleprize{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 75px;
+}
+.titlename1{
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 30px;
+ }
+.titleprize1{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 290px;
+}
+.titlename2{
+    position: absolute;
+    margin-left: 520px;
+    margin-top: 285px;
+ }
+.titleprize2{
+    position: absolute;
+    margin-top: 315px;
+    margin-left: 500px;
+}
+.titlename3{
+    position: absolute;
+    margin-left: 740px;
+    margin-top: 285px;
+ }
+.titleprize3{
+    position: absolute;
+    margin-top: 315px;
+    margin-left: 715px;
 }
