@@ -77,3 +77,87 @@ img{
     margin-top: 315px;
     margin-left: 715px;
 }
+.titlenameveg{
+    position: absolute;
+   margin-left: 130px;
+   margin-top: 30px;
+}
+.titleprizeveg{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 120px;
+}
+.samosa{
+    position: absolute;
+    top: 560px;
+    left: 00px;
+}
+.titlename-sam{
+    position: absolute;
+   top: 850px;
+   left: 130px;
+  
+}
+.titleprize-sam{
+    position: absolute;
+    top: 885px;
+    left: 80px;
+}
+.img-detail2{
+    position: absolute;
+    width:100%;
+}
+.pani-puri{
+    position: absolute;
+    top: 560px;
+   margin-right: 200px;
+   left: 310px;
+}
+.titlename-pani{
+    position: absolute;
+   top: 850px;
+   left: 440px;
+  
+}
+.titleprize1-pani{
+    position: absolute;
+    
+      top: 885px;
+   left: 440px;
+}
+.bhel-puri{
+    position: absolute;
+    top: 560px;
+   margin-right: 200px;
+   left: 630px;
+}
+.titlename-bhel{
+    position: absolute;
+   top: 850px;
+   left: 750px;
+  
+}
+.titleprize-bhel{
+    position: absolute;
+    
+      top: 885px;
+      left: 740px;
+}
+.dahi-puri{
+    position: absolute;
+    top: 560px;
+   margin-right: 200px;
+   left: 940px;
+}
+.titlename-dahi{
+    position: absolute;
+   top: 850px;
+   left: 1070px;
+  
+}
+.titleprize-dahi{
+    position: absolute;
+    
+      top: 885px;
+      left: 1060px;
+}

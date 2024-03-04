@@ -76,6 +76,7 @@
     margin-left: 30px;
     transition: 0.5s;
     text-decoration: none;
+    z-index: 8;
     
     
 }
@@ -120,4 +121,31 @@
 #btn:hover{
     transform: scale(1.07);
     background-color: rgba(196, 193, 193, 0.998);
+}
+#content-cakes1{
+    z-index: 5;
+    top: 1110px;
+    left: 110px;
+   
+}
+#content-cakes2{
+    z-index: 5;
+    top: 1110px;
+    left: 475px;
+}
+#content-cakes3{
+    z-index: 5;
+    top: 1110px;
+    left: 830px;
+}
+.content-image{
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    transition: 0.3s;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+    
+}
+.content-image:hover{
+    transform: scale(1.07);
 }

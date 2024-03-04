@@ -39,6 +39,7 @@
     
    
 }
+
 .CakeArea , .PuffArea,.OtherArea {
         height: 300px;
         width: 200px; 
@@ -62,19 +63,23 @@
 .Popular-Image{
     width: 100%;
     height: 370px;
-    background-color: rgb(220, 218, 218);
-    position: absolute;
+    background-color: rgb(228, 228, 228);
+  
     margin-top: 210px;
     display: flex;
-    flex-wrap: wrap;
+    
     display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+  
 
 }
 .Image-Scroll{
-    height: 270px;
+    height: 300px;
     background-color: yellow;
     margin: 60px;
     width: 200px;
+
     display: flex;
     display: inline-block;
     border-radius: 20px;
@@ -83,4 +88,34 @@
 }
 .Image-Scroll:hover{
     transform: scale(0.9);
+}
+.cakes-heading{
+    display: inline-block;
+    display: flex;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 235px;
+    background-color: rgb(245, 245, 245);
+    width: fit-content;
+    font-weight: bold;
+}
+.savory-head{
+    display: inline-block;
+    display: flex;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 590px;
+    background-color: rgb(245, 245, 245);
+    width: fit-content;
+    font-weight: bold;
+}
+.cookies-heading{
+    display: inline-block;
+    display: flex;
+    position: absolute;
+    margin-top: 140px;
+    margin-left:  895px;
+    background-color: rgb(245, 245, 245);
+    width: fit-content;
+    font-weight: bold;
 }
